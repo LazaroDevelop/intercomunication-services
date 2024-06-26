@@ -1,6 +1,12 @@
 spring:
   application:
     name: API-GATEWAY
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
 
 server:
   port: 9191
@@ -16,3 +22,7 @@ management:
     web:
       exposure:
         include: *
+
+logging:
+  level:
+    org.springframework.cloud.gateway.handler.RoutePredicateHandlerMapping: DEBUG
