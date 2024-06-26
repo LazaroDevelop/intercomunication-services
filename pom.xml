@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>net.developer.space</groupId>
-	<artifactId>intercomunication</artifactId>
+	<artifactId>intercommunication</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
