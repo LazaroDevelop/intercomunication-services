@@ -1,1 +1,2 @@
-com\example\servicecore\ServiceCoreApplication.class
+net\developer\space\servicecore\dto\Order.class
+net\developer\space\servicecore\dto\OrderEvent.class
