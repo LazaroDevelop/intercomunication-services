@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>net.developer.space</groupId>
-	<artifactId>intercomunication</artifactId>
+	<artifactId>intercommunication</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -23,6 +23,8 @@
 	<modules>
 		<module>service-registry</module>
 		<module>api-gateway</module>
+		<module>config-server</module>
+		<module>service-core</module>
 		<module>order-service</module>
 	</modules>
 </project>
